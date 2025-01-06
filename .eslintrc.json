@@ -1,0 +1,9 @@
+{
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  "ignorePatterns":[
+    "src/components/ui/images-slider.tsx",
+    "src/components/ui/infinite-moving-cards.tsx",
+    "src/components/ui/parallax-scroll.tsx",
+    "src/components/ui/split-text.tsx"
+  ]
+}
