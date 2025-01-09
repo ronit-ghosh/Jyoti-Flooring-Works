@@ -4,9 +4,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "../ui/card"
 const Difference = () => {
     return (
         <section className="mb-16">
-            <div className="h-24 px-2 text-center border rounded-lg md:text-3xl text-2xl font-bold flex justify-center items-center mb-8">Delivering Excellence, Every Step of the Way</div>
             <h2 className="text-3xl font-bold mb-6  ml-4 border-[#f58129] border-l-8 pl-3">Why Us?</h2>
-            <p className="text-lg mb-8">At Jyoti Flooring Works, we pride ourselves on delivering top-quality flooring solutions tailored to meet the unique needs of our clients. Our expertise in both engineered and conventional flooring sets us apart in the industry.</p>
+            <p className="text-lg mb-8">At Jyoti Flooring Works LLP, we pride ourselves on delivering top-quality flooring solutions tailored to meet the unique needs of our clients. Our expertise in both engineered and conventional flooring sets us apart in the industry.</p>
             <ComparisonTable />
         </section>
     )

@@ -3,15 +3,19 @@ import { motion } from "framer-motion";
 import React from "react";
 import { ImagesSlider } from "../ui/images-slider";
 import SplitText from "../ui/split-text";
+import { EpoxyFlooringCoatingContractors, IndustrialFlooringContractorsConsultant, IPSFlooringContractors, PUFlooringContractors, VaccumDeWateringFlooringContractors } from "@/lib/images";
 
 export default function Hero() {
   const handleAnimationComplete = () => {
     console.log('All letters have animated!');
   };
   const images = [
-    "https://res.cloudinary.com/drynqkitl/image/upload/v1736151698/WhatsApp_Image_2025-01-05_at_18.51.28_4f8b9d0c_zzbef3.jpg",
-    "https://res.cloudinary.com/drynqkitl/image/upload/v1736151800/3_jiiyv2.jpg",
-    "https://res.cloudinary.com/drynqkitl/image/upload/v1736151800/1_colqzb.jpg",
+    IndustrialFlooringContractorsConsultant,
+    IPSFlooringContractors,
+    PUFlooringContractors,
+    EpoxyFlooringCoatingContractors,
+    // TremixFlooringContractors,
+    VaccumDeWateringFlooringContractors,
   ];
   return (
     <ImagesSlider className="h-[54rem]" images={images}>
@@ -31,7 +35,7 @@ export default function Hero() {
       >
         <div className="font-bold text-center py-4 flex flex-col">
           <SplitText
-            text="Jyoti Flooring Works"
+            text="Jyoti Flooring Works LLP"
             className="font-semibold text-center text-4xl md:text-7xl pb-2 text-neutral-200"
             delay={60}
             animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}

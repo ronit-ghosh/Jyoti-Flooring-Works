@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 const Whyus = () => {
     return (
         <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-6 ml-4 border-[#f58129] border-l-8 pl-3">So Why Choose Us?</h2>
+            <h2 className="text-3xl font-bold mb-6 ml-4 border-[#f58129] border-l-8 pl-3"> What Sets Us Apart</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <Card>
                     <CardHeader>

@@ -7,7 +7,7 @@ import IgniteStudios from '@/components/Ignite'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Jyoti Flooring Works',
+  title: 'Jyoti Flooring Works LLP',
   description: 'Industrial Flooring Contractors and Consultants',
 }
 

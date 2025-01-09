@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { BentoGrid, BentoGridItem } from "../ui/bento-grid";
+import { EpoxyFlooringCoatingContractors, IndustrialFlooringContractorsConsultant, IPSFlooringContractors, PUFlooringContractors, TremixFlooringContractors, VaccumDeWateringFlooringContractors } from "@/lib/images";
 
 const Skeleton = ({ imageLink }: { imageLink: string }) => (
   <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl overflow-hidden">
@@ -13,49 +14,49 @@ const Skeleton = ({ imageLink }: { imageLink: string }) => (
   </div>
 );
 
-
 const items = [
   {
     title: "Industrial Flooring Contractors and Consultant",
-    description: "Explore the birth of groundbreaking ideas and inventions.",
-    header: <Skeleton imageLink="https://res.cloudinary.com/drynqkitl/image/upload/v1736151800/3_jiiyv2.jpg" />,
+    description: "Providing durable, high-performance flooring solutions for industrial environments.",
+    header: <Skeleton imageLink={IndustrialFlooringContractorsConsultant} />,
   },
-  {
-    title: "EPDM Flooring Contractors",
-    description: "Dive into the transformative power of technology.",
-    header: <Skeleton imageLink="https://res.cloudinary.com/drynqkitl/image/upload/v1736151800/3_jiiyv2.jpg" />,
-  },
-  {
-    title: "FM2 Flooring Contractors",
-    description: "Discover the beauty of thoughtful and functional design.",
-    header: <Skeleton imageLink="https://res.cloudinary.com/drynqkitl/image/upload/v1736151800/3_jiiyv2.jpg" />,
-  },
+  // {
+  //   title: "EPDM Flooring Contractors",
+  //   description: "Specialists in EPDM flooring for long-lasting, flexible, and resilient surfaces.",
+  //   header: <Skeleton imageLink={EPDMFlooringContractors} />,
+  // },
+  // {
+  //   title: "FM2 Flooring Contractors",
+  //   description: "Experts in FM2 flooring, designed for precision and load-bearing efficiency.",
+  //   header: <Skeleton imageLink={FM2FlooringContractors} />,
+  // },
   {
     title: "IPS Flooring Contractors",
-    description: "Understand the impact of effective communication in our lives.",
-    header: <Skeleton imageLink="https://res.cloudinary.com/drynqkitl/image/upload/v1736151800/3_jiiyv2.jpg" />,
+    description: "Delivering reliable IPS flooring for durable and versatile applications.",
+    header: <Skeleton imageLink={IPSFlooringContractors} />,
   },
   {
     title: "PU Flooring Contractors",
-    description: "Join the quest for understanding and enlightenment.",
-    header: <Skeleton imageLink="https://res.cloudinary.com/drynqkitl/image/upload/v1736151800/3_jiiyv2.jpg" />,
+    description: "Providing seamless and high-durability polyurethane flooring solutions.",
+    header: <Skeleton imageLink={PUFlooringContractors} />,
   },
   {
     title: "Epoxy Flooring / Coating Contractors",
-    description: "Experience the thrill of bringing ideas to life.",
-    header: <Skeleton imageLink="https://res.cloudinary.com/drynqkitl/image/upload/v1736151800/3_jiiyv2.jpg" />,
+    description: "Specialists in epoxy coatings for smooth, durable, and heavy-duty floors.",
+    header: <Skeleton imageLink={EpoxyFlooringCoatingContractors} />,
   },
   {
     title: "Tremix Flooring Contractors",
-    description: "Embark on exciting journeys and thrilling discoveries.",
-    header: <Skeleton imageLink="https://res.cloudinary.com/drynqkitl/image/upload/v1736151800/3_jiiyv2.jpg" />,
+    description: "Offering Tremix flooring for enhanced wear resistance and strength.",
+    header: <Skeleton imageLink={TremixFlooringContractors} />,
   },
   {
     title: "Vaccum De-Watering Flooring Contractors",
-    description: "Embark on exciting journeys and thrilling discoveries.",
-    header: <Skeleton imageLink="https://res.cloudinary.com/drynqkitl/image/upload/v1736151800/3_jiiyv2.jpg" />,
+    description: "Experts in vacuum dewatering for smooth and durable concrete flooring.",
+    header: <Skeleton imageLink={VaccumDeWateringFlooringContractors} />,
   },
 ];
+
 export default function Services() {
   return (
     <>

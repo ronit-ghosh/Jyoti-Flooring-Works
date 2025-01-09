@@ -1,5 +1,5 @@
 const FloatingButton = () => {
-    const message = `Hello, Jyoti Flooring Works! I would like to know more about your services.
+    const message = `Hello, Jyoti Flooring Works LLP! I would like to know more about your services.
 `
     const contactNumber = 9635777775 
     return (

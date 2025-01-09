@@ -6,10 +6,11 @@ import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog"
 import { Button } from "../ui/button"
 
 const images = [
-  { src: "https://res.cloudinary.com/drynqkitl/image/upload/v1736151800/1_colqzb.jpg", alt: "Flooring work 1" },
-  { src: "https://res.cloudinary.com/drynqkitl/image/upload/v1736151800/4_q6zjve.jpg", alt: "Flooring work 2" },
-  { src: "https://res.cloudinary.com/drynqkitl/image/upload/v1736151800/3_jiiyv2.jpg", alt: "Flooring work 3" },
-  { src: "https://res.cloudinary.com/drynqkitl/image/upload/v1736151800/2_vyyjrh.jpg", alt: "Flooring work 4" },
+  { src: "https://res.cloudinary.com/drynqkitl/image/upload/v1736263802/epoxy2_kbrnif.jpg", alt: "Flooring work 1" },
+  { src: "https://res.cloudinary.com/drynqkitl/image/upload/v1736263802/epoxy1_gdqg3x.jpg", alt: "Flooring work 2" },
+  { src: "https://res.cloudinary.com/drynqkitl/image/upload/v1736263802/1_twa1nh.jpg", alt: "Flooring work 3" },
+  { src: "https://res.cloudinary.com/drynqkitl/image/upload/v1736151800/3_jiiyv2.jpg", alt: "Flooring work 4" },
+  { src: "https://res.cloudinary.com/drynqkitl/image/upload/v1736151800/2_vyyjrh.jpg", alt: "Flooring work 5" },
   { src: "https://res.cloudinary.com/drynqkitl/image/upload/v1736151698/WhatsApp_Image_2025-01-05_at_18.51.28_4f8b9d0c_zzbef3.jpg", alt: "Flooring work 5" },
 ]
 

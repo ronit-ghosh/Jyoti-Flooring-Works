@@ -15,21 +15,21 @@ const Header = () => {
   return (
     <header className="fixed h-16 top-0 left-0 right-0 bg-background/70 backdrop-blur-md border-b z-50 shadow-sm flex justify-center">
       <div className="container mx-auto flex justify-between items-center py-2 px-4">
-        <Link href="/" className="flex w-24 h-12">
+        <Link href="/" className="flex w-20">
           <Image
-            src="https://res.cloudinary.com/drynqkitl/image/upload/v1736148698/logo_gfc6hs.png"
+            src="https://res.cloudinary.com/drynqkitl/image/upload/v1736430199/jyoti-logo_gcomer.png"
             alt="logo"
             width={500}
             height={1000}
-            className=""
+            className="dark:invert object-cover md:p-2 p-0"
           />
-          <Image
+          {/* <Image
             src="https://res.cloudinary.com/drynqkitl/image/upload/v1736149269/typography_tteqra.png"
             alt="logo"
             width={1000}
             height={500}
             className="dark:invert invert-0"
-          />
+          /> */}
         </Link>
         <nav className="hidden md:block">
           <ul className="flex space-x-4">
@@ -51,8 +51,8 @@ const Header = () => {
             <nav className="flex flex-col space-y-4">
               <Link href="/" className="hover:text-primary">Home</Link>
               <Link href="/about" className="hover:text-primary">About</Link>
-              <Link href="/#services" className="hover:text-primary">Services</Link>
-              <Link href="/#gallery" className="hover:text-primary">Gallery</Link>
+              <Link href="/services" className="hover:text-primary">Services</Link>
+              <Link href="/gallery" className="hover:text-primary">Gallery</Link>
               <Link href="/#contact" className="hover:text-primary">Contact</Link>
             </nav>
           </SheetContent>
